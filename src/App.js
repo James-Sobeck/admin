@@ -69,6 +69,11 @@ async function registerUsers(email, fn, ln, a1, a2, c, s, z, p, mc, mt, orgID){
     phone_number: "1255458040",
     organization_id: orgID || 1,
     password: "password",
+    mod1:  false,
+    mod2: false,
+    mod3: false,
+    mod4:false,
+    mod5:  false,
   }
   const options = {
     method: "POST",
